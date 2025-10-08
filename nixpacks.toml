@@ -1,0 +1,11 @@
+[phases.setup]
+nixPkgs = ['python3']
+
+[phases.install]
+cmds = ['echo "Instalando dependencias..."']
+
+[phases.build]
+cmds = ['echo "Construyendo aplicación..."']
+
+[start]
+cmd = 'python3 -m http.server $PORT'

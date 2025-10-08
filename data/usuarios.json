@@ -1,0 +1,13 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "admin123",
+      "nombre": "Administrador",
+      "email": "admin@salosoft.com",
+      "rol": "admin"
+    }
+  ]
+}
+

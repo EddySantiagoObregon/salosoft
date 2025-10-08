@@ -1,0 +1,8 @@
+# Salosoft - Aplicación Web Estática
+# No se requieren dependencias de Python específicas
+# La aplicación usa solo HTML, CSS y JavaScript vanilla
+
+# Si en el futuro necesitas dependencias, agréguelas aquí
+# Por ejemplo:
+# flask==2.3.3
+# gunicorn==21.2.0

@@ -1,0 +1,95 @@
+{
+  "servicios": [
+    {
+      "id": 1,
+      "nombre": "Desarrollo Web Personalizado",
+      "precio": 5000000,
+      "cantidad": 15,
+      "imagen": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=500&h=300&fit=crop",
+      "descripcion": "Creamos sitios web modernos y responsivos adaptados a las necesidades específicas de tu negocio. Utilizamos las últimas tecnologías y frameworks para garantizar un producto de alta calidad, escalable y de fácil mantenimiento.",
+      "promocion": true
+    },
+    {
+      "id": 2,
+      "nombre": "Aplicaciones Móviles iOS y Android",
+      "precio": 8000000,
+      "cantidad": 10,
+      "imagen": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=500&h=300&fit=crop",
+      "descripcion": "Desarrollamos aplicaciones móviles nativas y multiplataforma para iOS y Android. Nuestras apps son intuitivas, rápidas y ofrecen una excelente experiencia de usuario en todos los dispositivos.",
+      "promocion": true
+    },
+    {
+      "id": 3,
+      "nombre": "Consultoría en Transformación Digital",
+      "precio": 3500000,
+      "cantidad": 20,
+      "imagen": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=500&h=300&fit=crop",
+      "descripcion": "Asesoramos a tu empresa en el proceso de transformación digital, identificando oportunidades de mejora y definiendo estrategias tecnológicas alineadas con tus objetivos de negocio.",
+      "promocion": false
+    },
+    {
+      "id": 4,
+      "nombre": "Cloud Computing y Migración",
+      "precio": 6000000,
+      "cantidad": 12,
+      "imagen": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=500&h=300&fit=crop",
+      "descripcion": "Facilitamos la migración de tu infraestructura a la nube (AWS, Azure, Google Cloud). Optimizamos costos, mejoramos la escalabilidad y garantizamos la seguridad de tus datos en entornos cloud.",
+      "promocion": false
+    },
+    {
+      "id": 5,
+      "nombre": "Ciberseguridad y Protección de Datos",
+      "precio": 4500000,
+      "cantidad": 18,
+      "imagen": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?w=500&h=300&fit=crop",
+      "descripcion": "Protegemos tu empresa contra amenazas cibernéticas mediante auditorías de seguridad, implementación de firewalls, sistemas de detección de intrusiones y políticas de seguridad robustas.",
+      "promocion": true
+    },
+    {
+      "id": 6,
+      "nombre": "Inteligencia Artificial y Machine Learning",
+      "precio": 9000000,
+      "cantidad": 8,
+      "imagen": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=500&h=300&fit=crop",
+      "descripcion": "Implementamos soluciones de IA y aprendizaje automático para automatizar procesos, realizar análisis predictivos y mejorar la toma de decisiones en tu organización.",
+      "promocion": false
+    },
+    {
+      "id": 7,
+      "nombre": "Mantenimiento y Soporte IT",
+      "precio": 2500000,
+      "cantidad": 25,
+      "imagen": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=500&h=300&fit=crop",
+      "descripcion": "Ofrecemos servicios de mantenimiento preventivo y correctivo para tu infraestructura tecnológica, además de soporte técnico 24/7 para garantizar la continuidad de tus operaciones.",
+      "promocion": false
+    },
+    {
+      "id": 8,
+      "nombre": "E-commerce y Plataformas de Venta",
+      "precio": 7000000,
+      "cantidad": 10,
+      "imagen": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=500&h=300&fit=crop",
+      "descripcion": "Desarrollamos tiendas online completas con sistemas de pago integrados, gestión de inventario, carrito de compras y todas las funcionalidades necesarias para vender en línea de forma exitosa.",
+      "promocion": true
+    },
+    {
+      "id": 9,
+      "nombre": "Análisis de Datos y Business Intelligence",
+      "precio": 5500000,
+      "cantidad": 14,
+      "imagen": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=500&h=300&fit=crop",
+      "descripcion": "Transformamos tus datos en información valiosa mediante dashboards interactivos, reportes automatizados y análisis avanzados que te ayudarán a tomar decisiones estratégicas informadas.",
+      "promocion": false
+    },
+    {
+      "id": 10,
+      "nombre": "DevOps y Automatización",
+      "precio": 6500000,
+      "cantidad": 11,
+      "imagen": "https://images.unsplash.com/photo-1667372393119-3d4c48d07fc9?w=500&h=300&fit=crop",
+      "descripcion": "Implementamos prácticas DevOps y CI/CD para acelerar el desarrollo, mejorar la calidad del software y automatizar procesos de despliegue, reduciendo tiempos y costos operativos.",
+      "promocion": false
+    }
+  ]
+}
+

@@ -1,0 +1,27 @@
+{
+  "name": "salosoft",
+  "version": "1.0.0",
+  "description": "Plataforma web de servicios tecnológicos - Salosoft",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server $PORT",
+    "dev": "python -m http.server 8000"
+  },
+  "engines": {
+    "python": "3.x"
+  },
+  "keywords": [
+    "salosoft",
+    "servicios-tecnologicos",
+    "web",
+    "html",
+    "css",
+    "javascript"
+  ],
+  "author": "Santiago Obregón",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tu-usuario/salosoft"
+  }
+}
