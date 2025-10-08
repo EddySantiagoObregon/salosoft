@@ -43,12 +43,26 @@ function initSlider() {
     const slides = document.querySelectorAll('.slide');
     
     if (slides.length > 0) {
+        console.log('Slider inicializado con', slides.length, 'slides');
         showSlide(0);
         
         // Auto slide cada 5 segundos
         slideInterval = setInterval(() => {
             changeSlide(1);
         }, 5000);
+        
+        // Agregar event listeners para los botones
+        const prevBtn = document.querySelector('.slider-btn.prev');
+        const nextBtn = document.querySelector('.slider-btn.next');
+        
+        if (prevBtn) {
+            prevBtn.addEventListener('click', () => changeSlide(-1));
+        }
+        if (nextBtn) {
+            nextBtn.addEventListener('click', () => changeSlide(1));
+        }
+    } else {
+        console.log('No se encontraron slides');
     }
 }
 
@@ -56,7 +70,10 @@ function showSlide(index) {
     const slides = document.querySelectorAll('.slide');
     const dots = document.querySelectorAll('.dot');
     
-    if (slides.length === 0) return;
+    if (slides.length === 0) {
+        console.log('No hay slides para mostrar');
+        return;
+    }
     
     // Resetear todas las slides
     slides.forEach(slide => slide.classList.remove('active'));
@@ -76,6 +93,8 @@ function showSlide(index) {
     if (dots[currentSlide]) {
         dots[currentSlide].classList.add('active');
     }
+    
+    console.log('Mostrando slide', currentSlide);
 }
 
 function changeSlide(direction) {
@@ -88,7 +107,7 @@ function changeSlide(direction) {
     showSlide(currentSlide + direction);
 }
 
-function currentSlide(index) {
+function goToSlide(index) {
     // Reiniciar el intervalo
     clearInterval(slideInterval);
     slideInterval = setInterval(() => {
